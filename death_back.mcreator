@@ -1,0 +1,127 @@
+{
+  "mod_elements": [
+    {
+      "name": "RecordDeathLocation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "record_death_location",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/com/huangzuan/deathback/procedures/RecordDeathLocationProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Back",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back",
+      "metadata": {
+        "files": [
+          "src/main/java/com/huangzuan/deathback/command/BackCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "TeleportToDeathLocation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_death_location",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/huangzuan/deathback/procedures/TeleportToDeathLocationProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "deathX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "deathY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "deathZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "deathDimension",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"minecraft:overworld\""
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/huangzuan/deathback/DeathBackMod.java",
+      "src/main/java/com/huangzuan/deathback/network/DeathBackModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "death_back",
+    "modName": "Death Back",
+    "version": "0.1-Alpha",
+    "description": "A simple and light utility mod that records your last death location. Use the /back command to safely teleport back to where you died across any dimension.",
+    "author": "huangzuan",
+    "websiteURL": "https://github.com/huangzuan/DeathBack",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator",
+    "modElementsPackage": "com.huangzuan.deathback"
+  },
+  "mcreatorVersion": 202600230420
+}
