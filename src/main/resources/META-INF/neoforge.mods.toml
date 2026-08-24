@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="death_back"
-version="0.1-Alpha"
+version="0.2-Alpha"
 displayName="Death Back"
 displayURL="https://github.com/huangzuan/DeathBack"
 logoFile="logo.png"
