@@ -121,7 +121,7 @@
   "workspaceSettings": {
     "modid": "death_back",
     "modName": "Death Back",
-    "version": "0.2-Alpha",
+    "version": "0.1-Beta",
     "description": "A simple and light utility mod that records your last death location. Use the /back command to safely teleport back to where you died across any dimension.",
     "author": "huangzuan",
     "websiteURL": "https://github.com/huangzuan/DeathBack",
