@@ -4,7 +4,7 @@
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen)
 ![Mod Loader](https://img.shields.io/badge/Loader-Fabric-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Modrinth](https://img.shields.io/badge/Modrinth-Visit-1bd96a?logo=modrinth&logoColor=white)](https://modrinth.com/)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Visit-1bd96a?logo=modrinth&logoColor=white)](https://modrinth.com/mod/death_back)
 
 A Minecraft mod developed using MCreator that allows players to quickly teleport back to their last death location.
 
