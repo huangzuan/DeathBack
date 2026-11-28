@@ -1,0 +1,19 @@
+# Gradle and generated build output
+.gradle/
+build/
+
+# Local game data, mods, and logs
+run/
+*.log
+*.tmp
+
+# MCreator and IDE-local settings
+.mcreator/
+.eclipse/
+.idea/
+.vscode/
+*.iml
+
+# macOS metadata
+.DS_Store
+._*

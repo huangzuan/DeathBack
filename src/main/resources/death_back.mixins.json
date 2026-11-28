@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "package": "com.huangzuan.deathback.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockItemMixin",
+    "ResultSlotMixin",
+    "FurnaceResultSlotMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "EntityThunderMixin",
+    "TamableAnimalMixin",
+    "MobMixin",
+    "PlayerSleepMixin",
+    "ItemEntityMixin",
+    "PlayerEventsMixin",
+    "FishingHookMixin",
+    "HoeItemMixin",
+    "ExperienceOrbMixin",
+    "ExplosionMixin",
+    "FarmBlockMixin",
+    "CropGrowthMixin",
+    "SaplingGrowthMixin",
+    "EntityDimensionMixin",
+    "ServerPlayerDimensionMixin",
+    "PlayerCriticalMixin",
+    "PlayerAdvancementsMixin",
+    "CommandManagerMixin",
+    "ItemCraftingRemainderMixin"
+  ],
+  "client": [
+    "MinecraftAttackMixin",
+    "MinecraftUseItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "minVersion": "0.8.4"
+}

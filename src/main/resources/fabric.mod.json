@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "death_back",
+  "version": "0.1-Beta",
+  "name": "Death Back",
+  "description": "A simple and light utility mod that records your last death location. Use the /back command to safely teleport back to where you died across any dimension.",
+  "authors": [
+    "huangzuan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/huangzuan/DeathBack",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.huangzuan.deathback.DeathBackMod"
+    ],
+    "client": [
+      "com.huangzuan.deathback.DeathBackModClient"
+    ]
+  },
+  "accessWidener": "death_back.accesswidener",
+  "mixins": [
+    "death_back.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

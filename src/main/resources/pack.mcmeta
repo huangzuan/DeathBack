@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "A simple and light utility mod that records your last death location. Use the /back command to safely teleport back to where you died across any dimension."
+  }
+}
